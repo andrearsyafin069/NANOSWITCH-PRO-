@@ -20,7 +20,7 @@
 
 ### How to Flash Pre-compiled Firmware (`.bin`):
 
-1. Download the latest `.bin` file from the [Releases](../../releases) section of this repository in your preferred language (`firmware_id.bin` or `firmware_en.bin`).
+1. Download the latest `.bin` file from the [Releases](../../releases) section of this repository in your preferred language (`NANOSWITCH_PRO.ID.bin` or `NANOSWITCH_PRO.EN.bin`).
 2. Connect your Wemos D1 Mini / ESP8266 to your PC via a Micro-USB Data cable.
 3. Open your flasher tool of choice (e.g., **NodeMCU PyFlasher**, **ESP Web Flasher** via Chrome, or **NodeMCU Flasher**).
 4. Select your board's COM Port, choose the downloaded `.bin` file, and click **Flash**.
@@ -59,7 +59,8 @@ If you wish to modify or customize the source code:
 
 Developed by:
 - **Developer:** `Andre_Aryafin069`
-
+- **Instagram:**`@andre_arsyafin069`
+  
 ---
 
 ## 📄 License
