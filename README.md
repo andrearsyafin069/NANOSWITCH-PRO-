@@ -1,12 +1,12 @@
 # 🔌 NANOSWITCH PRO
 
-🌐 *Baca dalam [Bahasa Indonesia](README.md)*
+🌐 *deep reading [English Language](README.md)*
 
 ![Version](https://img.shields.io/badge/version-2.5%20Pro-e08b26)
 ![Platform](https://img.shields.io/badge/platform-ESP8266%20%7C%20Wemos%20D1%20Mini-00384c)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-**NANOSWITCH PRO** is a Wi-Fi-based smart switch control system built on the ESP8266 (Wemos D1 Mini) microcontroller. This system allows you to remotely control household appliances via an interactive Web Dashboard or physical wall switches without requiring an internet connection.
+**NANOSWITCH PRO** is a Wi-Fi-based smart switch control system built on the ESP8266 (Wemos D1 Mini/Nodemcu) microcontroller. This system allows you to remotely control household appliances via an interactive Web Dashboard or physical wall switches without requiring an internet connection.
 
 ---
 
@@ -16,13 +16,13 @@
 > 
 > Pre-compiled **Firmware Binary (`.bin`)** files ready for flashing are provided in two languages:
 > - 🇮🇩 **Bahasa Indonesia**
-> - 🇬🇧 **English**
+> - 🇬🇧 **English Language**
 
 ### How to Flash Pre-compiled Firmware (`.bin`):
 
 1. Download the latest `.bin` file from the [Releases](../../releases) section of this repository in your preferred language (`NANOSWITCH_PRO.ID.bin` or `NANOSWITCH_PRO.EN.bin`).
 2. Connect your Wemos D1 Mini / ESP8266 to your PC via a Micro-USB Data cable.
-3. Open your flasher tool of choice (e.g., **NodeMCU PyFlasher**, **ESP Web Flasher** via Chrome, or **NodeMCU Flasher**).
+3. Open your flasher tool of choice (e.g., **NodeMCU PyFlasher**, **ESP Web Flasher** via Chrome, or **NodeMCU Flasher**, **ESP8266 LOADER**, **ESP32 FLASHER**).
 4. Select your board's COM Port, choose the downloaded `.bin` file, and click **Flash**.
 5. Done! Your device is ready to use.
 
@@ -43,10 +43,10 @@ If you wish to modify or customize the source code:
 
 | Component | Specification / Notes |
 | :--- | :--- |
-| **Microcontroller** | ESP8266 Wemos D1 Mini |
+| **Microcontroller** | ESP8266 Wemos D1 Mini | NODEMCU |
 | **Storage System** | LittleFS |
 | **Default SSID** | `NANOSWITCH PRO` |
-| **Max Relays** | 8 Channels |
+| **Max Relays** | 1-6 Channels |
 
 | Pin Label | ESP8266 GPIO | Default Usage |
 | :---: | :---: | :--- |
@@ -59,8 +59,12 @@ If you wish to modify or customize the source code:
 
 Developed by:
 - **Developer:** `Andre_Aryafin069`
+
+## Sosial media:
+
 - **Instagram:**`@andre_arsyafin069`
-  
+- **Tiktok:**`@andre_arsyafin`  
+
 ---
 
 ## 📄 License
